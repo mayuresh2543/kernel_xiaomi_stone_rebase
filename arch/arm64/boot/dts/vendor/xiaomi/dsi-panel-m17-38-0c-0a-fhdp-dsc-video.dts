@@ -30,7 +30,7 @@
 		qcom,esd-err-irq-gpio = <&tlmm 97 0x2002>;
 		qcom,mdss-dsi-pan-enable-dynamic-fps;
 		qcom,mdss-dsi-pan-fps-update = "dfps_immediate_porch_mode_vfp";
-		qcom,dsi-supported-dfps-list = <120 60>;
+		qcom,dsi-supported-dfps-list = <120 90 60>;
 		mi,mdss-dsi-doze-hbm-brightness-value = <272>;
 		mi,mdss-dsi-doze-lbm-brightness-value = <22>;
 		qcom,mdss-dsi-oled-panel-video-mode;
@@ -96,7 +96,7 @@
 				qcom,mdss-dsi-dispparam-flat-mode-off-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-dispparam-bc-120hz-command = [39 00 00 00 00 00 03 f0 5a 5a 39 00 00 00 00 00 02 60 01 39 00 00 00 00 00 02 f7 0b 39 01 00 00 00 00 03 f0 a5 a5];
 				qcom,mdss-dsi-dispparam-bc-120hz-command-state = "dsi_hs_mode";
-				qcom,mdss-dsi-dispparam-bc-90hz-command = [39 00 00 00 00 00 03 f0 5a 5a 39 00 00 00 00 00 02 60 01 39 00 00 00 00 00 02 f7 0b 39 01 00 00 00 00 03 f0 a5 a5];
+				qcom,mdss-dsi-dispparam-bc-90hz-command = [39 00 00 00 00 00 03 f0 5a 5a 39 00 00 00 00 00 02 60 21 39 00 00 00 00 00 02 f7 0b 39 01 00 00 00 00 03 f0 a5 a5];
 				qcom,mdss-dsi-dispparam-bc-90hz-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-dispparam-bc-60hz-command = <0x39000000 0x3f0 0x5a5a3900 0x0 0x2602139 0x1000000 0x2f70b>;
 				qcom,mdss-dsi-dispparam-bc-60hz-command-state = "dsi_hs_mode";
